@@ -3,12 +3,12 @@ Reads (FFT) Data from Websocket and displays Frequencies Power. Makes use of p5j
 
 *Example*
 
-![Equalizer Example](./equalizer-example.png.png)
+![Equalizer Example](./equalizer-example.png)
 
 ## Prequesites
 
 1. before you start, make sure you have you have the websocket server running
-check my other repository ![pyaudio-fft-websocket-server](https://github.com/straczowski/pyaudio-fft-websocket-server)
+check my other repository [pyaudio-fft-websocket-server](https://github.com/straczowski/pyaudio-fft-websocket-server)
 
 2. Install Modules
 
