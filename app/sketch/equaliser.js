@@ -8,7 +8,7 @@ let darkGreen, lightGreen, lightBlue, lightGray, white
 // x coordinate of each equaliser bar
 const xPositions = [0, 0, 0, 0, 0,]
 // measure peak values
-const maxs = initEmptyWsData()
+let maxs = initEmptyWsData()
 // lerp values, interessting for animations
 const lerps = initEmptyWsData()
 
@@ -94,4 +94,11 @@ function calcLerpValues (freqs) {
 
 function initEmptyWsData () {
     return { bass: 0, lowMid: 0, mid: 0, highMid: 0, treble: 0, }
+}
+
+/**
+ * reset max values on mouse click
+ */
+function mouseClicked () {
+    maxs = initEmptyWsData()
 }
